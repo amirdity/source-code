@@ -1,0 +1,47 @@
+img {
+  height: 75px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  transition: 2s;
+}
+img:hover {
+  height: 90px;
+  -webkit-box-shadow:0px 0px 51px 31px rgba(255,46,147,0.73);
+  -moz-box-shadow: 0px 0px 51px 31px rgba(255,46,147,0.73);
+  box-shadow: 0px 0px 51px 31px rgba(255,46,147,0.73);
+  transition: 1s;
+}
+body {
+  background-color: black;
+}
+p {
+  text-align: center;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 50px;
+  font-size: 100px;
+  margin-bottom: 20px;
+  transition: 6s;
+  
+}
+p:hover {
+  text-shadow: rgba(255,0,217,1) 0px 0px 33px;
+  transition: 1s;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  width: 100%;
+}
+.column {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+}
+audio {
+  
+
+}
